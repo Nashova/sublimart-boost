@@ -5,28 +5,28 @@ import { Newsletter } from "@/components/Newsletter";
 
 const featuredProducts = [
   {
-    title: "Custom T-Shirt",
+    title: "Camiseta Personalizada",
     price: 24.99,
     image: "/placeholder.svg",
-    category: "Apparel",
+    category: "Ropa",
   },
   {
-    title: "Photo Mug",
+    title: "Taza con Foto",
     price: 14.99,
     image: "/placeholder.svg",
-    category: "Drinkware",
+    category: "Bebidas",
   },
   {
-    title: "Canvas Print",
+    title: "Impresión en Lienzo",
     price: 49.99,
     image: "/placeholder.svg",
-    category: "Home Decor",
+    category: "Decoración",
   },
   {
-    title: "Phone Case",
+    title: "Funda para Teléfono",
     price: 19.99,
     image: "/placeholder.svg",
-    category: "Accessories",
+    category: "Accesorios",
   },
 ];
 
@@ -37,7 +37,7 @@ const Index = () => {
       
       <div className="container mx-auto px-4 py-16">
         <h2 className="font-heading text-3xl font-bold text-center mb-12">
-          Featured Products
+          Productos Destacados
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {featuredProducts.map((product) => (

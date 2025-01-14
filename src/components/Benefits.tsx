@@ -3,23 +3,23 @@ import { CheckCircle, Clock, Package, Zap } from "lucide-react";
 const benefits = [
   {
     icon: CheckCircle,
-    title: "Premium Quality",
-    description: "High-quality sublimation prints that last",
+    title: "Calidad Premium",
+    description: "Impresiones por sublimación de alta calidad que duran",
   },
   {
     icon: Clock,
-    title: "Fast Turnaround",
-    description: "Quick processing and shipping times",
+    title: "Entrega Rápida",
+    description: "Tiempos rápidos de procesamiento y envío",
   },
   {
     icon: Package,
-    title: "Bulk Orders",
-    description: "Special pricing for wholesale orders",
+    title: "Pedidos al Mayor",
+    description: "Precios especiales para pedidos al por mayor",
   },
   {
     icon: Zap,
-    title: "Custom Designs",
-    description: "Bring your unique ideas to life",
+    title: "Diseños Personalizados",
+    description: "Da vida a tus ideas únicas",
   },
 ];
 
@@ -28,7 +28,7 @@ export const Benefits = () => {
     <div className="py-16 bg-secondary/30">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-heading font-bold text-center mb-12">
-          Why Choose Us
+          ¿Por Qué Elegirnos?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit) => (

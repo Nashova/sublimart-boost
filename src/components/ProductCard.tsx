@@ -28,7 +28,7 @@ export const ProductCard = ({ title, price, image, category }: ProductCardProps)
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <Button className="w-full bg-primary hover:bg-primary/90">
-          <ShoppingCart className="mr-2 h-4 w-4" /> Add to Cart
+          <ShoppingCart className="mr-2 h-4 w-4" /> Añadir al Carrito
         </Button>
       </CardFooter>
     </Card>
